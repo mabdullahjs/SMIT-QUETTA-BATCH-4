@@ -1,0 +1,23 @@
+Tags:
+
+form
+input
+fielset
+legend
+label
+
+
+
+Types:
+
+text
+number
+radio
+checbox
+email
+password
+file
+color
+date
+textarea
+select option
