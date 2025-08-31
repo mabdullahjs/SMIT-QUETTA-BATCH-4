@@ -1,0 +1,40 @@
+/* * {
+    color: blueviolet;
+} */
+
+/* h1 , h2 {
+    color: red;
+}
+
+#para {
+    color: brown;
+}
+
+.list {
+    color: cyan;
+} */
+
+
+/* .parent > p{
+    color: red;
+} */
+
+/* .parent p {
+    color: red;
+} */
+
+/* h1 + p {
+    color: red;
+} */
+
+/* .second-heading ~ p {
+    color: red;
+} */
+
+* {
+    color: red;
+}
+
+h1 {
+    color: purple;
+}
