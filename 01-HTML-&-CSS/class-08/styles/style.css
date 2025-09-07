@@ -1,0 +1,60 @@
+/* #heading-one {
+    color: blue;
+}
+
+.heading {
+    color: orangered !important;
+}
+
+h1 {
+    color: purple;
+}
+
+* {
+    color: red;
+} */
+
+
+/* * > tag > class > id > inline > !important */
+
+
+
+/* Inheritance */
+
+/* color
+
+font, font-size, font-family
+
+letter-spacing, word-spacing
+
+line-height
+
+text-align, text-indent
+
+visibility
+ */
+
+
+ /* .parent {
+    color: brown;
+    text-align: center;
+    border: 1px solid black;
+ }
+
+ p {
+    border: 1px solid red;
+    border: inherit;
+ } */
+
+/* 
+ body {
+    background-color: #ff0000;
+    color: #ffffff;
+
+    https://coolors.co/
+ } */
+ .parent {
+    color: white;
+    background-color: rgba(63, 186, 177 , 0.5);
+    /* opacity: 1; */
+ }
