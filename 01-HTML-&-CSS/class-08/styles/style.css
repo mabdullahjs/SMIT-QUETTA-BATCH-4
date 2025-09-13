@@ -1,3 +1,5 @@
+/* precendence / inheritance */
+
 /* #heading-one {
     color: blue;
 }
@@ -53,8 +55,14 @@ visibility
 
     https://coolors.co/
  } */
- .parent {
+ /* .parent {
     color: white;
-    background-color: rgba(63, 186, 177 , 0.5);
-    /* opacity: 1; */
+    background-color: rgb (63, 186, 177 , 0.5);
+    opacity: 1;
+ } */
+
+ @import url('https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&display=swap');
+
+ body {
+     font-family: "Cossette Titre", sans-serif;
  }

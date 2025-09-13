@@ -1,0 +1,97 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+} */
+
+
+/* @font-face {
+    font-family: poppins-regular;
+    src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: bitcount;
+  src: url("./assets/fonts/bitcountfont/bitcount.ttf");
+}
+
+
+body {
+  font-family: poppins-regular;
+}
+
+h1 {
+  font-family: bitcount;
+} */
+
+h1 {
+  text-align: end;
+  text-shadow: 4px -4px 6px rgba(255,0,0,0.6);
+}
+
+
+p {
+  /* font-weight: bolder; */
+  /* font-style: italic; */
+  /* text-transform: capitalize; */
+  /* text-decoration: line-through; */
+  /* font-size: 10px;
+  line-height: 20px;
+  word-spacing: 10px;
+  letter-spacing: 3px; */
+
+  border: 1px solid black;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(67, 99, 99);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+/* 
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+p:hover {
+  background-color: red;
+  color: white;
+} */
+
+
+p:first-line {
+  font-size: 32px;
+  color: red;
+}
+
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: purple;
+}
+
+button:active {
+  background-color: black;
+}
+
+input:focus{
+  background-color: beige;
+}
