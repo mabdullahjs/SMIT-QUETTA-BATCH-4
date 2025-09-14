@@ -1,0 +1,62 @@
+/* units */
+
+
+/* relative units */
+
+/* % */
+/* em  => 16px*/
+/* rem */
+
+/* absolute units */
+/* px */
+/* vw */
+/* vh */
+
+
+/* 
+.parent {
+    font-size: 20px;
+}
+h1 {
+    font-size: 2rem;
+}
+p {
+    font-size: 2rem;
+} */
+
+/* .parent {
+    border: 2px solid black;
+    width: 50%;
+    width: 60vw;
+}
+
+.children {
+    height: 100px;
+    border: 1px solid red;
+    width: 50%;
+    width: 80vw;
+} */
+
+
+/* fontsize = rem */
+/* width = % */
+/* padding margin border = px */
+
+
+html {
+    font-size: 62.5%;
+}
+
+/* 100% == 16px */
+/* 62.5% == 10px */
+
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2.5rem;
+    border: 1px solid black;
+    height: 200vh;
+}
