@@ -1,0 +1,76 @@
+ /* Position 
+ Git and github 
+
+h1 {
+   border: 10px solid transparent;
+  border-image: url("https://9ada7ed7-f41c-41ab-8ddb-b79097285857.mdnplay.dev/shared-assets/images/examples/border-diamonds.png")
+    30 space;
+  box-shadow: 7px 9px 12px 6px rgba(0, 0, 0, 0.75); 
+
+   border: 1px solid black;
+  border-radius: 90% 10% 82% 18% / 5% 58% 42% 95% ; 
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    border: 10px double  black;
+    margin: 10px;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.analog{
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+ul {
+    text-align: center;
+    margin: 50px auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+    width: 70%;
+}
+
+li {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 30px;
+    display: inline;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #ff0000;
+}
+
+.piano-image{
+    width: 850px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    width: 75%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 40px auto;
+}

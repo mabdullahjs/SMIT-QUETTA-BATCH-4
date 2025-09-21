@@ -1,0 +1,52 @@
+/* positions */
+/* 
+relative
+absolute
+fixed
+sticky
+static
+
+
+*/
+
+
+.parent {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 850px auto;
+    height: 200vh;
+
+}
+
+.children {
+    width: 100px;
+    height: 100px;
+}
+
+#red{
+    background-color: red;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#green{
+    background-color: green;
+    /* position: relative;
+    z-index: 1; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#blue{
+    background-color: blue;
+    position: fixed;
+    left: 0px;
+    top: 10px;
+}
+#light-blue{
+    background-color: lightblue;
+    position: sticky;
+    top: 50px;
+    left: 20px;
+}
