@@ -1,0 +1,113 @@
+/* boiler plate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.item-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.gap-1 {
+  gap: 5px;
+}
+.gap-2 {
+  gap: 10px;
+}
+.gap-3 {
+  gap: 15px;
+}
+.gap-4 {
+  gap: 20px;
+}
+.gap-5 {
+  gap: 25px;
+}
+.m-1 {
+  margin: 5px;
+}
+.m-2 {
+  margin: 10px;
+}
+.m-3 {
+  margin: 15px;
+}
+.m-4 {
+  margin: 20px;
+}
+.m-5 {
+  margin: 25px;
+}
+.p-1 {
+  padding: 5px;
+}
+.p-2 {
+  padding: 10px;
+}
+.p-3 {
+  padding: 15px;
+}
+.p-4 {
+  padding: 20px;
+}
+.p-5 {
+  padding: 25px;
+}
+.mt-1 {
+  margin-top: 5px;
+}
+.mb-1 {
+  margin-bottom: 5px;
+}
+.ml-1 {
+  margin-left: 5px;
+}
+.mr-1 {
+  margin-right: 5px;
+}
+.pt-1 {
+  padding-top: 5px;
+}
+.pb-1 {
+  padding-bottom: 5px;
+}
+.pl-1 {
+  padding-left: 5px;
+}
+.pr-1 {
+  padding-right: 5px;
+}
+.text-none {
+    text-decoration: none;
+    color: #ffffff;
+}

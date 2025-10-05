@@ -48,20 +48,30 @@ html {
     border: 1px solid black;
     margin: 50px;
     /* padding: 20px; */
-    height: 650px;
+    height: 750px;
 
-    display: flex;
+    /* display: flex; */
     /* gap: 10px; */
     /* flex-direction: column; */
     /* justify-content: space-around; */
     /* align-items: center; */
     /* flex-wrap: wrap; */
-    flex-flow: row wrap;
+    /* flex-flow: row wrap;
     align-items: center;
     align-content: center;
-    gap: 20px;
+    gap: 20px; */
     /* row-gap: 20px; */
     /* column-gap: 20px; */
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; */
+
+    display: flex;
+    /* justify-content: center; */
 }
 
 .children {
@@ -70,3 +80,16 @@ html {
     font-size: 3rem;
 }
 
+#box-1 {
+    /* flex-grow: 1; */
+}
+#box-2 {
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+    /* flex-basis: 20rem; */
+    /* flex: none 20rem; */
+}
+#box-3 {
+    /* flex-grow: 1; */
+    align-self: center;
+}
