@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+@media(max-width: 1200px){
+    body {
+        background-color: purple;
+    }
+}
+
+
+@media(max-width: 1000px){
+    body {
+        background-color: red;
+    }
+}
+
