@@ -224,3 +224,109 @@
 //     console.log("beta kiya chah rha ho?");
     
 // }
+
+
+// console.log("hello world");
+
+// let speed = 80;
+
+// if(speed < 30){
+//     console.log("Too slow");
+    
+// } else if(speed >= 30 && speed <= 60) {
+//     console.log("Safe speed");
+    
+// } else if(speed > 60 && speed <= 100){
+//     console.log("speeding");
+    
+// } else {
+//     console.log("Dangerously fast");
+    
+// }
+
+
+
+// let lateDays = 17;
+
+// if(lateDays === 0){
+//     console.log("No late charges");
+    
+// }else if(lateDays <= 5) {
+//     console.log("$1 per day " , lateDays * 1);
+    
+// } else if(lateDays <= 10) {
+//     console.log("$2 per day " , lateDays * 2);
+    
+// } else {
+//     console.log("$5 per day " , lateDays * 5);
+
+// }
+
+
+// let age = 20;
+// let eventPass = true;
+
+
+// if(age > 18 && eventPass){
+//     console.log("Welcome to my event.");
+    
+// }else {
+//     console.log("You are not eligible.");
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let currentBattery = 19;
+
+// if(currentBattery >= 80){
+//     console.log("Fully charged");
+    
+// } else if(currentBattery >= 50 && currentBattery <=79) {
+//     console.log("Good battery");
+    
+// } else if(currentBattery >= 20 && currentBattery <= 49){
+//     console.log("Low battery");
+    
+// } else {
+//     console.log("Charge Now.");
+    
+// }
+
+
+
+let student = false;
+let age = 31;
+
+
+
+if (student){
+    console.log("20% discount milaiga");
+    
+} else if(age > 60){
+    console.log("senior 30% discount");
+    
+
+}else {
+    console.log("no discount ");
+    
+}
+
+
+
+
+// https://github.com/mabdullahjs/learning_python/blob/main/08-Conditional-statement/questions.md from question 6
+
+// https://drive.google.com/file/d/13L8rYKilcAwWCPleAS24GZGD8qdambfR/view?usp=sharing
