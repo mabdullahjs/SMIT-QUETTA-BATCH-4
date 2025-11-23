@@ -7,6 +7,8 @@
 //   console.log("hello world 2");
 //   console.log("hello world 3");
 //   console.log("hello world 4");
+
+//   return "hello world 3"
 // }
 
 // reusableCode() // function call krna
@@ -96,15 +98,42 @@
 // local variable
 // global variable
 
-let fullName = "Abdullah khan" // global
-function greetUser(){
-    let username = "Abdullah" // local var
-    console.log(username);
-    console.log(fullName);
+// let fullName = "Abdullah khan" // global
+// function greetUser(){
+//     let username = "Abdullah" // local var
+//     console.log(username);
+//     console.log(fullName);
     
-}
-// console.log(username); nahi milaiga
-console.log(fullName);
+// }
+// // console.log(username); nahi milaiga
+// console.log(fullName);
 
 
-greetUser()
+// greetUser()
+
+
+
+// const head = document.querySelector("#head");
+// console.log(head.innerHTML);
+// head.innerHTML = "Change through js"
+
+// DOM manipulation
+
+// const para = document.querySelector("#para");
+
+// para.innerHTML = "change thorugh javascript"
+
+
+// const ul = document.querySelector("#list");
+
+// ul.innerHTML = "<li>hello</li><li>world</li><li>about</li>"
+
+// const head = document.querySelector("#head");
+// function greetuser(){
+//     console.log("hello world");
+//     head.innerHTML = "change"
+    
+// }
+
+
+// const let var
