@@ -103,7 +103,7 @@
 //     let username = "Abdullah" // local var
 //     console.log(username);
 //     console.log(fullName);
-    
+
 // }
 // // console.log(username); nahi milaiga
 // console.log(fullName);
@@ -132,8 +132,104 @@
 // function greetuser(){
 //     console.log("hello world");
 //     head.innerHTML = "change"
-    
+
 // }
 
 
 // const let var
+
+
+// var username = "mabdullah";
+// username = "mabd" // reassign
+// var username = "Mkhan" // redeclare
+// console.log(username);
+
+
+
+// let age = 21;
+// age = 22;
+// let age = 92 x redeclare
+// console.log(age);
+
+// const city = "karachi";
+// city = "asdsad"
+// console.log(city);
+
+
+
+// let username;
+// username = "abdullah"
+// console.log(username);
+
+
+// const username = "abdullah";
+// console.log(username);
+
+
+
+
+
+
+// user greetings. har user ka name alg hoga.
+// return ka simple matlb jaha function call hua ha waha return kri hui value ajaeygi
+
+
+// function greetUser(username){
+//     return "hello " + username
+// }
+
+// let greetings = greetUser("abdullah"); // argument send krna
+// console.log(greetings);
+// console.log(greetUser("usman"));
+
+
+// kisi bhi html element ko js ka through change krna.
+
+// const h1 = document.querySelector("#head");
+// h1.innerHTML = "Change through js"
+// console.log(h1.innerHTML);
+
+
+
+// const p = document.querySelector("#para");
+// p.innerHTML = "change this para using javascript DOM manipulation..."
+
+
+// const ul = document.querySelector("#list");
+
+// function checkBtn(){
+//     console.log("hello world");
+//     ul.innerHTML = "<li>Home</li><li>about</li><li>contact</li>"
+
+// }
+
+
+// const h1 = document.querySelector("#head");
+
+// function changeText(){
+//     if(h1.innerHTML === "Hello world"){
+//         h1.innerHTML = "change through js"
+//     }else {
+//         h1.innerHTML = "Hello world"
+//     }
+// }
+
+// get input value
+
+// const input = document.querySelector("#input");
+
+// function getVal(){
+//     console.log(input.value);
+
+// }
+
+
+
+// js ka through styling krna 
+
+// const h1 = document.querySelector("#head");
+
+// function changecolor() {
+//     h1.style.backgroundColor = "red"
+//     h1.style.color = "white"
+// }
