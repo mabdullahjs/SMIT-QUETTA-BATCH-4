@@ -4,16 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .todo-container {
+            background: #fff;
+            width: 100%;
+            max-width: 400px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            flex: 1;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            outline: none;
+            font-size: 16px;
+        }
+
+        input:focus {
+            border-color: #667eea;
+        }
+
+        .add-btn {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            background: #667eea;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .add-btn:hover {
+            background: #5a67d8;
+        }
+
+        ol {
+            list-style: none;
+        }
+
+        li {
+            background: #f7f7f7;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .todo-text {
+            flex: 1;
+            margin-right: 10px;
+            color: #333;
+        }
+
+        .actions button {
+            border: none;
+            padding: 6px 10px;
+            margin-left: 5px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .delete-btn {
+            background: #e53e3e;
+            color: #fff;
+        }
+
+        .edit-btn {
+            background: #38b2ac;
+            color: #fff;
+        }
+
+        .delete-btn:hover {
+            background: #c53030;
+        }
+
+        .edit-btn:hover {
+            background: #2c7a7b;
+        }
+    </style>
 </head>
 <body>
-    <h1>Todo App</h1>
-    <input type="text" placeholder="enter todo" id="input">
-    <button onclick="addTodo()">add Todo</button>
-    <ol id="list"></ol>
+
+    <div class="todo-container">
+        <h1>Todo App</h1>
+
+        <div class="input-group">
+            <input type="text" placeholder="Enter a todo..." id="input">
+            <button class="add-btn" onclick="addTodo()">Add</button>
+        </div>
+
+        <ol id="list">
+        </ol>
+    </div>
 
     <script src="./app.js"></script>
 </body>
 </html>
+
 
 
 <!-- CRUD -->

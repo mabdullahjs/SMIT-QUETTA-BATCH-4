@@ -6,10 +6,13 @@ let allTodos = [];
 function renderTodo() {
   ol.innerHTML = "";
   for (let i = 0; i < allTodos.length; i++) {
-    ol.innerHTML += `<li>${allTodos[i]}
-        <button onclick="deleteTodo(${i})">delete</button>
-        <button onclick="editTodo(${i})">edit</button>
-        </li>`;
+    ol.innerHTML += ` <li>
+                <span class="todo-text">${allTodos[i]}</span>
+                <div class="actions">
+                    <button class="edit-btn" onclick="editTodo(${i})">Edit</button>
+                    <button class="delete-btn" onclick="deleteTodo(${i})">Delete</button>
+                </div>
+            </li>`;
   }
 }
 
