@@ -308,6 +308,17 @@ const products = [
 ];
 
 
+const div = document.querySelector(".container");
+for(let i = 0; i < products.length; i++){
+    console.log(products[i]);
+    div.innerHTML += `<div class="card">
+            <h2>${products[i].name}</h2>
+            <p>${products[i].description.slice(0 , 20)}...</p>
+            <h3>Price: $${products[i].price}</h3>
+        </div>`
+    
+}
+
 // object literal
 // constructor function
 // class
