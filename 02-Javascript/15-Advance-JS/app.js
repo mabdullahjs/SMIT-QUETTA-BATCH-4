@@ -37,7 +37,7 @@
 //     let b = 20; // local varibale
 
 //     console.log('inside function ===> ' , a , b);
-    
+
 // }
 
 // console.log(b);
@@ -64,7 +64,7 @@
 
 //     function innerFunc(){
 //         console.log("Inner function called");
-        
+
 //     }
 
 
@@ -82,14 +82,14 @@
 // function outerFunc(){
 //     let a = 10;
 //     console.log(b);
-    
+
 
 //     function innerOne(){
 //         let b = 20;
 //         console.log(a , c);
-        
+
 //     }
-    
+
 //     function innerTwo(){
 //         let c = 30;
 //         console.log(a , b);
@@ -107,7 +107,7 @@
 
 // (function greetUser(){
 //     console.log("hello abdullah");
-    
+
 // })()
 
 // greetUser()
@@ -131,3 +131,96 @@
 // console.log(Object.values(user));
 // console.log(Object.entries(user));
 
+
+
+// Exponentiation Operator 
+
+// console.log(2 ** 10);
+// console.log(2*2*2*2*2*2*2*2*2*2);
+
+
+
+// Optional chaining
+
+// const user = {
+//     profile: {
+//         settings: {
+//             theme: {
+//                 color: "dark"
+//             }
+//         }
+//     }
+// };
+
+// console.log(user.profile?.settings?.user?.name);
+
+
+// Destructuring 
+
+// const user = {
+//     username: "mabdullah",
+//     age: 22,
+//     isLoggedIn: true
+// }
+
+// const {username , isLoggedIn} = user
+// console.log(username , isLoggedIn);
+
+
+// const fruits = ['apple' , 'banana' , 'orange' , 'kiwi'];
+
+// const [f1 , , , f2] = fruits
+
+// console.log(f2);
+
+
+
+
+
+// Template literals 
+
+// const username = "mabdullah";
+// const age = 22;
+
+// console.log("username is " + username + " user age is " + age);
+// console.log(`username is ${username} user age is ${age}`);
+
+
+// Default parameters 
+
+// function greetUser(username = "Ali"){
+//     console.log(`hello ${username}`);
+
+// }
+
+// greetUser("abdullah")
+
+// Rest parameter 
+
+// function usernames(...username){
+//     console.log(username);
+    
+// }
+
+// usernames("Abdullah" , "usman" , "ali" , "nawaz")
+
+// Spread Operator 
+
+// const num1 = [1, 2, 3, 4, 5]
+// const num2 = [6, 7, 8, 9]
+// const num3 = [10, 11, 12, 13, 14, 15]
+// const newArr = [...num1 , ...num3,  ...num2]
+// console.log(newArr);
+
+
+
+//  Arrow functions 
+// Enhanced object literals 
+// Iterators & For..of 
+// Map 
+// Array methods 
+// Higher-order function 
+// CallBack 
+// Promises 
+// Ternary Operator 
+// modules // firebase ma prhainga
