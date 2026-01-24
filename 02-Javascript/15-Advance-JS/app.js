@@ -199,7 +199,7 @@
 
 // function usernames(...username){
 //     console.log(username);
-    
+
 // }
 
 // usernames("Abdullah" , "usman" , "ali" , "nawaz")
@@ -214,13 +214,49 @@
 
 
 
-//  Arrow functions 
+// Arrow functions
+
+// hoisting
+// this
+
+// const greetUser = (username)=>{
+//     return `hello ${username}`
+// }
+
+// console.log(greetUser("abdullah"));
+
+// const greetUser = user => `hello ${user}`
+
+
 // Enhanced object literals 
+
+// const username = "Abdullah";
+// const age = 28;
+
+// const user = {
+//     username, age
+// }
+
+// console.log(user);
+
 // Iterators & For..of 
-// Map 
-// Array methods 
-// Higher-order function 
-// CallBack 
+
+// const fruits = ["apple", "banana", "orange", "mango", "grapes"];
+
+// for (const key in user) {
+//     console.log(key , user[key]);
+    
+    
+// }
+
+// for (const element of fruits) {
+//     console.log(element);
+    
+// }
+
+
+
+// async
 // Promises 
 // Ternary Operator 
 // modules // firebase ma prhainga
