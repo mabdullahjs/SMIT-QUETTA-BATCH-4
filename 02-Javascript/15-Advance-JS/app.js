@@ -245,18 +245,118 @@
 
 // for (const key in user) {
 //     console.log(key , user[key]);
-    
-    
+
+
 // }
 
 // for (const element of fruits) {
 //     console.log(element);
-    
+
 // }
 
 
 
 // async
+
+//settimeout
+//setinterval
+//fetch
+//axios
+//promises then catch
+//async await
+
+// const data = settimeout(data mangwalo , 2000)
+// console(data)
+
+// promises (console.log)
+
+// resolve pending reject
+
+// const age = 15
+
+// const promise1 = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         if(age >= 18){
+//             resolve("promise resolved")
+//         } else {
+//             reject("promise reject")
+//         }
+//     }, 2000);
+// })
+
+// promise1
+// .then((res)=>{
+//     console.log(res);
+
+// })
+// .catch((err)=>{
+//     console.log(err);
+
+// })
+
+
+
+function shaadiScnz(bankBalance) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (bankBalance >= 2000000) {
+                resolve("shaadi Mubarak..")
+            } else {
+                reject("Ammi zehr kahlaingi..")
+            }
+        }, 1500);
+    })
+}
+
+// promise chaining
+
+shaadiScnz(10000000)
+    .then((res) => {
+        return `${res} updated`
+
+    }).then((res) => {
+        console.log(res);
+        
+
+    })
+    .catch((err) => {
+        console.log(err);
+
+    }).finally(()=>{
+        console.log("finally laazmi chalaiga..");
+        
+    })
+
+
+
+
+
+
+
+
 // Promises 
 // Ternary Operator 
+
+// const age = 15;
+
+// // age >= 18 ? console.log("welcome to gym") : console.log("no gym access")
+
+// age >= 16 ? console.log("welcome to gym") : age >= 15 ? console.log("1000 extra from gym access") : console.log("no gym access")
+
+// if (age >= 16) {
+//     console.log("welcome to gym");
+
+// } else if (age >= 15) {
+//     console.log("1000 extra from gym access");
+
+// }
+
+// else {
+//     console.log("no gym access");
+
+// }
+
+
+
+
 // modules // firebase ma prhainga
