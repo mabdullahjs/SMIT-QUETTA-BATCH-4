@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Objects</title>
-    <style> 
+    <style>
         .card {
             padding: 15px;
             border: 1px solid black;
             border-radius: 5px;
             flex-basis: 25%;
         }
+
         .container {
             display: flex;
             justify-content: center;
+            flex-direction: column;
+            align-items: center;
             gap: 20px;
             flex-wrap: wrap;
         }
+
+        h1 {
+            text-align: center;
+        }
+
+        .time{
+            font-size: 4rem;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Hello objects</h1>
+    <h1>STOPWATCH</h1>
     <div class="container">
-        
+        <h1 class="time"><span class="hour">00</span>:<span class="minute">00</span>:<span class="second">00</span></h1>
+
+        <div>
+            <button onclick="startWatch()">Start</button>
+            <button onclick="stopWatch()">Stop</button>
+            <button>Reset</button>
+        </div>
     </div>
 
     <script src="./objects.js"></script>
 </body>
+
 </html>

@@ -136,7 +136,6 @@
 
 // console.log(nestedData[1].subcategories[1].products[0].brand);
 
-
 // const users = [
 //   {
 //     name: "Alice",
@@ -194,130 +193,226 @@
 // const div = document.querySelector('.container');
 // for(let i = 0; i < users.length; i++){
 //     div.innerHTML += `<h1>${users[i].name}</h1>`
-    
+
+// }
+
+// const products = [
+//   {
+//     name: "Laptop",
+//     price: 999.99,
+//     description: "Powerful laptop for all your computing needs.",
+//   },
+//   {
+//     name: "Headphones",
+//     price: 79.99,
+//     description: "High-quality headphones for immersive audio experience.",
+//   },
+//   {
+//     name: "Smartphone",
+//     price: 699.99,
+//     description: "Advanced smartphone with cutting-edge features.",
+//   },
+//   {
+//     name: "Tablet",
+//     price: 449.99,
+//     description: "Portable tablet for entertainment and productivity.",
+//   },
+//   {
+//     name: "Smartwatch",
+//     price: 249.99,
+//     description: "Stay connected and track your fitness with this smartwatch.",
+//   },
+//   {
+//     name: "Gaming Console",
+//     price: 399.99,
+//     description: "Experience the thrill of gaming with this powerful console.",
+//   },
+//   {
+//     name: "Camera",
+//     price: 599.99,
+//     description: "Capture life's moments with stunning clarity and detail.",
+//   },
+//   {
+//     name: "Wireless Speaker",
+//     price: 129.99,
+//     description: "Enjoy your favorite music wirelessly with this speaker.",
+//   },
+//   {
+//     name: "External Hard Drive",
+//     price: 129.99,
+//     description: "Expand your storage and backup your files with ease.",
+//   },
+//   {
+//     name: "Wireless Mouse",
+//     price: 29.99,
+//     description: "Navigate your computer with precision and comfort.",
+//   },
+//   {
+//     name: "Printer",
+//     price: 199.99,
+//     description: "Print documents and photos with exceptional quality.",
+//   },
+//   {
+//     name: "Desk Lamp",
+//     price: 49.99,
+//     description: "Illuminate your workspace with adjustable brightness.",
+//   },
+//   {
+//     name: "Fitness Tracker",
+//     price: 79.99,
+//     description: "Monitor your health and track your workouts.",
+//   },
+//   {
+//     name: "Bluetooth Earbuds",
+//     price: 99.99,
+//     description: "Wireless earbuds for on-the-go audio enjoyment.",
+//   },
+//   {
+//     name: "Portable Charger",
+//     price: 39.99,
+//     description: "Charge your devices anywhere, anytime.",
+//   },
+//   {
+//     name: "USB Flash Drive",
+//     price: 19.99,
+//     description: "Store and transfer your files conveniently.",
+//   },
+//   {
+//     name: "Monitor",
+//     price: 299.99,
+//     description: "Upgrade your display for enhanced productivity.",
+//   },
+//   {
+//     name: "Keyboard",
+//     price: 49.99,
+//     description: "Type comfortably with this reliable keyboard.",
+//   },
+//   {
+//     name: "Computer Mousepad",
+//     price: 9.99,
+//     description: "Enhance your mouse precision with this smooth pad.",
+//   },
+//   {
+//     name: "Graphic Tablet",
+//     price: 199.99,
+//     description: "Express your creativity with this digital drawing tablet.",
+//   },
+//   {
+//     name: "Wireless Router",
+//     price: 79.99,
+//     description: "Fast and reliable internet connection for your home network.",
+//   },
+// ];
+
+// const div = document.querySelector(".container");
+// for(let i = 0; i < products.length; i++){
+//     console.log(products[i]);
+//     div.innerHTML += `<div class="card">
+//             <h2>${products[i].name}</h2>
+//             <p>${products[i].description.slice(0 , 20)}...</p>
+//             <h3>Price: $${products[i].price}</h3>
+//         </div>`
+
+// }
+
+// hoisting
+
+// greetUser()
+// function greetUser(){
+//   console.log("hello world");
+
+// }
+// var username;
+
+// console.log(username);
+// let username = "abdullah"
+
+// settimeout
+// setinterval
+
+// setTimeout(function (){
+//   console.log("hello world after 2 seconds");
+//   alert("hello world after 2 seconds")
+
+// } , 2000)
+
+// let num = 0
+// setInterval(function(){
+//   num += 1
+//   console.log("console after 1 second" , num);
+
+// } , 1000)
+
+// const hourdiv = document.querySelector(".hour");
+// const minutediv = document.querySelector(".minute");
+// const seconddiv = document.querySelector(".second");
+
+// let second = 0;
+// let minute = 0;
+
+// let watch;
+// function startWatch() {
+//   watch = setInterval(() => {
+//     second += 1;
+//     if (second < 10) {
+//       seconddiv.innerHTML = "0" + second;
+//     } else {
+//       seconddiv.innerHTML = second;
+//     }
+
+//     if (second === 60) {
+//       minute += 1;
+//       second = 0;
+//       minutediv.innerHTML = "0" + minute;
+//     }
+//   }, 50);
+// }
+
+// function stopWatch() {
+//   clearInterval(watch);
+// }
+
+// let grade = "A";
+
+// switch (grade) {
+//   case "A+":
+//     console.log("Behtreen ha doctor banoga..");
+//     break;
+//   case "A":
+//     console.log("Beta zabardast haa..");
+//     break;
+//   case "B":
+//     console.log("Beta mehnat krlaa..");
+//     break;
+//   default:
+//     console.log("Rickshaw...");
+// }
+
+// if(grade === "A+"){
+//   console.log("Behtreen ha doctor banoga..");
+
+// } else if(grade === "A"){
+//   console.log("Beta zabardast haa..");
+
+// } else if(grade === "B"){
+//   console.log("Beta mehnat krlaa..");
+
+// } else {
+//   console.log("Rickshaw...");
+
 // }
 
 
-
-const products = [
-  {
-    name: "Laptop",
-    price: 999.99,
-    description: "Powerful laptop for all your computing needs.",
-  },
-  {
-    name: "Headphones",
-    price: 79.99,
-    description: "High-quality headphones for immersive audio experience.",
-  },
-  {
-    name: "Smartphone",
-    price: 699.99,
-    description: "Advanced smartphone with cutting-edge features.",
-  },
-  {
-    name: "Tablet",
-    price: 449.99,
-    description: "Portable tablet for entertainment and productivity.",
-  },
-  {
-    name: "Smartwatch",
-    price: 249.99,
-    description: "Stay connected and track your fitness with this smartwatch.",
-  },
-  {
-    name: "Gaming Console",
-    price: 399.99,
-    description: "Experience the thrill of gaming with this powerful console.",
-  },
-  {
-    name: "Camera",
-    price: 599.99,
-    description: "Capture life's moments with stunning clarity and detail.",
-  },
-  {
-    name: "Wireless Speaker",
-    price: 129.99,
-    description: "Enjoy your favorite music wirelessly with this speaker.",
-  },
-  {
-    name: "External Hard Drive",
-    price: 129.99,
-    description: "Expand your storage and backup your files with ease.",
-  },
-  {
-    name: "Wireless Mouse",
-    price: 29.99,
-    description: "Navigate your computer with precision and comfort.",
-  },
-  {
-    name: "Printer",
-    price: 199.99,
-    description: "Print documents and photos with exceptional quality.",
-  },
-  {
-    name: "Desk Lamp",
-    price: 49.99,
-    description: "Illuminate your workspace with adjustable brightness.",
-  },
-  {
-    name: "Fitness Tracker",
-    price: 79.99,
-    description: "Monitor your health and track your workouts.",
-  },
-  {
-    name: "Bluetooth Earbuds",
-    price: 99.99,
-    description: "Wireless earbuds for on-the-go audio enjoyment.",
-  },
-  {
-    name: "Portable Charger",
-    price: 39.99,
-    description: "Charge your devices anywhere, anytime.",
-  },
-  {
-    name: "USB Flash Drive",
-    price: 19.99,
-    description: "Store and transfer your files conveniently.",
-  },
-  {
-    name: "Monitor",
-    price: 299.99,
-    description: "Upgrade your display for enhanced productivity.",
-  },
-  {
-    name: "Keyboard",
-    price: 49.99,
-    description: "Type comfortably with this reliable keyboard.",
-  },
-  {
-    name: "Computer Mousepad",
-    price: 9.99,
-    description: "Enhance your mouse precision with this smooth pad.",
-  },
-  {
-    name: "Graphic Tablet",
-    price: 199.99,
-    description: "Express your creativity with this digital drawing tablet.",
-  },
-  {
-    name: "Wireless Router",
-    price: 79.99,
-    description: "Fast and reliable internet connection for your home network.",
-  },
-];
+// for(let i = 0; i < 10; i++){
+//   if(i === 4){
+//     // break
+//     continue
+//   }
+//   console.log(i);
+  
+// }
 
 
-const div = document.querySelector(".container");
-for(let i = 0; i < products.length; i++){
-    console.log(products[i]);
-    div.innerHTML += `<div class="card">
-            <h2>${products[i].name}</h2>
-            <p>${products[i].description.slice(0 , 20)}...</p>
-            <h3>Price: $${products[i].price}</h3>
-        </div>`
-    
-}
 
 // object literal
 // constructor function
