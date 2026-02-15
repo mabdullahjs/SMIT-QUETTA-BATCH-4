@@ -316,15 +316,15 @@ shaadiScnz(10000000)
 
     }).then((res) => {
         console.log(res);
-        
+
 
     })
     .catch((err) => {
         console.log(err);
 
-    }).finally(()=>{
+    }).finally(() => {
         console.log("finally laazmi chalaiga..");
-        
+
     })
 
 
@@ -359,4 +359,55 @@ shaadiScnz(10000000)
 
 
 
-// modules // firebase ma prhainga
+// map, filter
+// ternary operator (if else)
+// DOM manipulation
+// object and array destructuring
+// arrow function return argument parameter
+// Loops
+// Object and array of objects
+// local storage
+// modules
+
+
+
+const users = [
+    {
+        id: 1,
+        fullname: 'John'
+    },
+    {
+        id: 2,
+        fullname: 'John'
+    },
+    {
+        id: 3,
+        fullname: 'John'
+    },
+    {
+        id: 4,
+        fullname: 'John'
+    },
+]
+
+
+const userBtn = document.querySelector("#addUser");
+const aboutBtn = document.querySelector("#aboutbtn");
+
+const addUser = () => {
+    const input = prompt("enter your name");
+    users.push({
+        id: Date.now(),
+        fullname: input
+    })
+    console.log(users);
+    
+}
+
+
+
+userBtn.addEventListener('click' , addUser)
+aboutBtn.addEventListener("click" , ()=>{
+    localStorage.setItem("users" , JSON.stringify(users))
+    window.location = "about.html"
+})
