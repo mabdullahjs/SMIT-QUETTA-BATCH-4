@@ -1,6 +1,6 @@
-# React + Vite
+# custom readme file by Abdullah
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+testing 123
 
 Currently, two official plugins are available:
 
