@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 
 function App() {
-  // const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
   // const [secCount, setSecCount] = useState(10);
   // useEffect(() => {
   //   console.log("Mount");
@@ -13,20 +13,20 @@ function App() {
 
 
 
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
 
-  useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(res => res.json())
-      .then((res) => {
-        console.log(res);
-        setData(res)
-      })
-      .catch((eror) => {
-        console.log(eror);
-      })
+  // useEffect(() => {
+  //   fetch('https://jsonplaceholder.typicode.com/users')
+  //     .then(res => res.json())
+  //     .then((res) => {
+  //       console.log(res);
+  //       setData(res)
+  //     })
+  //     .catch((eror) => {
+  //       console.log(eror);
+  //     })
 
-  }, [])
+  // }, [])
 
 
   return (
@@ -39,13 +39,15 @@ function App() {
 
 
 
-      {data?.length ? (
+      {/* {data ? (
         data.map(item => (
           <h1 key={item.id}>{item.name} {item.email}</h1>
         ))
       ) : (
         <h1>Loading..</h1>
-      )}
+      )} */}
+
+   
 
 
 

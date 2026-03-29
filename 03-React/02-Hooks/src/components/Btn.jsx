@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Btn() {
+function Btn(props) {
   return (
-    <button>Click me!</button>
+    <button onClick={props.onclick}>{props.title}</button>
   )
 }
 
